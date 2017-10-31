@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_thong_tin_ung_dung"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.doan.learnjapanese.ThongTinUngDung">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:text="LEARN JAPANESE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="Đây là phần mềm học tiếng nhật trên mobile, hỗ trợ việc học từ bảng chữ cái đến luyện thi."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="1: Học bảng chữ cái."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="2: 50 bài Minna: Từ vựng, ngữ pháp, luyện hội thoại, hội thoại mẫu và tự vựng thêm."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="3: Cung cấp 512 từ Kanji."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="4: Các mẫu câu giao tiếp thường gặp."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="5: Luyện thi JLPT ở 2 cấp độ tiếng nhật là N4 và N5."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="Mọi thông tin vui lòng liên hệ:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="Nguyễn Thùy Linh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img1111"
+            android:padding="15dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/facebook3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/img11111"
+            android:padding="15dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/gmail3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

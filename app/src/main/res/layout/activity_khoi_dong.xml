@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.doan.learnjapanese.KhoiDong.KhoiDong">
+    <ImageView
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgKhoiDong"
+        android:layout_centerInParent="true"
+       android:layout_marginBottom="20dp"
+        android:src="@drawable/icontrong"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:id="@+id/khoidong"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/imgKhoiDong"
+        android:text="Đang khởi động ứng dụng..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:padding="5dp"
+        android:layout_below="@+id/khoidong"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/circular"
+        android:max="100"
+        android:progress="20"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</LinearLayout  >

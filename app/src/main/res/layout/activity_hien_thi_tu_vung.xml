@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hien_thi_tu_vung"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doan.learnjapanese.BaiMinna.HienThiTuVung">
+
+    <LinearLayout
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.9"
+            android:id="@+id/lvTV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:divider="@color/diriver"
+            android:dividerHeight="2dp"></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/lvTV"
+        android:layout_weight="0.1"
+        android:background="#413d3d"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <LinearLayout
+            android:weightSum="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.85"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:weightSum="1"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:textColor="#fff"
+                    android:text="sdsdddd"
+                    android:layout_weight="0.5"
+                    android:id="@+id/txtvtimetv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:gravity="center_vertical|right"
+                    android:textColor="#fff"
+                    android:text="sdsdddd"
+                    android:layout_weight="0.5"
+                    android:id="@+id/txtvtotaltv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="gravity" />
+            </LinearLayout>
+
+            <SeekBar
+                android:paddingBottom="10dp"
+                android:id="@+id/sbTV"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/playTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:padding="10dp"
+            android:src="@drawable/play" />
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

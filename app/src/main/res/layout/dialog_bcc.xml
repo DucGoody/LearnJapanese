@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:padding="5dp"
+        android:src="@drawable/delete"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:text="OK"
+        android:layout_weight="0.13"
+        android:gravity="top|center_horizontal"
+        android:layout_gravity="top|right"
+        android:id="@+id/okiBCCMain2"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_weight="0.4"
+        android:id="@+id/txtvChiTietTuMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="70dp"
+        android:textStyle="normal" />
+    <ImageView
+
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imgLoaBCCMain"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/loa" />
+    <LinearLayout
+        android:layout_weight="0.38"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_weight="0.15"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Ví dụ:"
+            android:textColor="#000"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_weight="0.85"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/txtvViDuNhatBCCMain"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.33"
+                android:text="TextView"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/txtvViDuColumBCCMain"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.33"
+                android:text="TextView"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/txtvViDuNghiaBCCMain"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.33"
+                android:text="TextView"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

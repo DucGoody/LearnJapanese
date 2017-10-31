@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    tools:context="com.doan.learnjapanese.MauCauGiaoTiep.MainGiaoTiep$PlaceholderFragment">
+
+    <ListView
+        android:padding="5dp"
+        android:divider="@color/diriver"
+        android:dividerHeight="2dp"
+        android:id="@+id/lvgiaotiep2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

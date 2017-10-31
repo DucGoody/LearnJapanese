@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ImageView
+        android:src="@drawable/icontrong"
+        android:padding="20dp"
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:layout_toRightOf="@+id/image"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:gravity="center_horizontal"
+        android:id="@+id/dialogButtoncancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text=" Hủy "
+        android:layout_alignBottom="@+id/dialogButtonOK"
+        android:layout_toRightOf="@+id/dialogButtonOK"
+        android:layout_toEndOf="@+id/dialogButtonOK" />
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:gravity="center_horizontal"
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text=" Đồng ý "
+        android:layout_below="@+id/image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp" />
+</RelativeLayout>

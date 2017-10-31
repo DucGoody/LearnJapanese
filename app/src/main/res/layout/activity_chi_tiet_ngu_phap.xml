@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.doan.learnjapanese.BaiMinna.ChiTietNguPhap">
+
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:id="@+id/txtvTieuDeNguPhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_below="@+id/txtvTieuDeNguPhap"
+        android:id="@+id/txtvTieuDeChiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textSize="14.5dp"
+        android:layout_below="@+id/txtvTieuDeChiTiet"
+        android:id="@+id/txtvNoiDungNguPhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textSize="14.5dp"
+        android:textColor="#bf25d7"
+        android:layout_below="@+id/txtvNoiDungNguPhap"
+        android:id="@+id/txtvViDuNguPhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#ed0628"
+        android:layout_below="@+id/txtvViDuNguPhap"
+        android:id="@+id/txtvChuYNgưPhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtvChuYNgưPhap"
+        android:id="@+id/txtvTieuDeNguPhapMoRong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textSize="14.5dp"
+        android:layout_below="@+id/txtvTieuDeNguPhapMoRong"
+        android:id="@+id/txtvNoiDungNguPhapMoRong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textSize="14.5dp"
+        android:textColor="#bf25d7"
+        android:layout_below="@+id/txtvNoiDungNguPhapMoRong"
+        android:id="@+id/txtvViDuNguPhapMoRong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</RelativeLayout>

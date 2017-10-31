@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hien_thi_tu_vung_them"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.doan.learnjapanese.BaiMinna.HienThiTuVungThem">
+
+    <ListView
+        android:id="@+id/lvTVT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/diriver"
+        android:dividerHeight="2dp"></ListView>
+</RelativeLayout>

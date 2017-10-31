@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Learn Japanese</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_minna">MainMinna</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_minna">Minna</string>
+    <string name="title_activity_main_bang_chu_cai">MainBangChuCai</string>
+    <string name="title_activity_main_giao_tiep">MainGiaoTiep</string>
+    <string name="title_activity_main_kanji">MainKanji</string>
+    <string name="title_activity_tab2">Tab2</string>
+    <string name="title_activity_main_bo_thu">MainBoThu</string>
+</resources>

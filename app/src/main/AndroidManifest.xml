@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doan.learnjapanese">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icontrong"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".KhoiDong.KhoiDong"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ThongTinUngDung"
+            android:label="Trợ giúp và thông tin"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".BaiMinna.HienThiTuVung" />
+        <activity android:name=".BaiMinna.HienThiNguPhap" />
+        <activity android:name=".fb" />
+        <activity android:name=".HuongDanSuDung" />
+        <activity android:name=".BaiMinna.HienThiTuVungThem" />
+        <activity android:name=".TuKanji.ChiTietTuKanji" />
+        <activity android:name=".LuyenThi.HienThiLuyenThi" />
+        <activity android:name=".BangChuCai.MainBangChuCai" />
+        <activity android:name=".MauCauGiaoTiep.MainGiaoTiep" />
+        <activity android:name=".TuKanji.MainKanji" />
+        <activity android:name=".LuyenThi.LuyenThi" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BaiMinna.HienThiHoiThoai" />
+        <activity android:name=".BaiMinna.HienThiHoiThoaiMau" />
+        <activity android:name=".BaiMinna.TabMinna" />
+        <activity
+            android:name=".BoThu.MainBoThu"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".BaiMinna.ChiTietNguPhap"></activity>
+    </application>
+
+</manifest>

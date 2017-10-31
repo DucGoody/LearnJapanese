@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/txtvIDbt"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_weight="0.1"
+        android:text="TextView" />
+
+    <TextView
+        android:gravity="center"
+        android:textSize="28dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/txtvTuNhatbt"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_weight="0.3"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/txtvIDbt"
+      />
+
+    <TextView
+        android:textSize="16dp"
+        android:gravity="center_vertical"
+        android:id="@+id/txtvNghiabt"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/txtvTuNhatbt" />
+
+    <TextView
+        android:textSize="16dp"
+        android:gravity="center_vertical"
+        android:id="@+id/txtvNghiaVietbt"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/txtvNghiabt" />
+</RelativeLayout>

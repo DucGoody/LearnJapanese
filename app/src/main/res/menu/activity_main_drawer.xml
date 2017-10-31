@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bangchucai"
+            android:icon="@drawable/bangchucai"
+            android:title="Bảng chữ cái" />
+        <item
+            android:id="@+id/nav_baiminna"
+            android:icon="@drawable/baiminna"
+            android:title="50 bài Minna" />
+        <item
+            android:id="@+id/nav_tukanji"
+            android:icon="@drawable/chukanji"
+            android:title="512 từ Kanji" />
+        <item
+            android:id="@+id/nav_bothu"
+            android:icon="@drawable/bothu"
+            android:title="214 bộ thủ" />
+        <item
+            android:id="@+id/nav_caugiaotiep"
+            android:icon="@drawable/giaotiep"
+            android:title="Mẫu câu giap tiếp" />
+        <item
+            android:id="@+id/nav_luyenthi"
+            android:icon="@drawable/luyenthi2"
+            android:title="Luyện thi JLPT N4...N5" />
+    </group>
+
+    <item android:title="Mở rộng">
+        <menu>
+            <item
+                android:id="@+id/nav_ttud"
+                android:icon="@drawable/thongtinungdung"
+                android:title="Trợ giúp và thông tin ứng dụng" />
+        </menu>
+    </item>
+
+</menu>
